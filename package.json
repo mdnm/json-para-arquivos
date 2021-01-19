@@ -1,7 +1,7 @@
 {
   "name": "json-para-arquivos",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A object to file helper",
   "main": "index.js",
   "author": "mdnm",
