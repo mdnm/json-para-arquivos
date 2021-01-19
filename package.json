@@ -1,0 +1,9 @@
+{
+  "name": "json-to-file",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A object to file helper",
+  "main": "index.js",
+  "author": "mdnm",
+  "license": "MIT"
+}
