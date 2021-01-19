@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-export const get = (path) => {
+export const getFile = (path) => {
   try {
     const database = fs.readFileSync(path);
     return JSON.parse(database.toString());
@@ -9,7 +9,7 @@ export const get = (path) => {
   }
 }
 
-export const update = (path, object) => {
+export const updateFile = (path, object) => {
   try {
     return fs.writeFileSync(path, JSON.stringify(object));
   } catch (error) {
