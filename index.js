@@ -1,19 +1,17 @@
 import fs from 'fs';
 
-const pathToDatabase = "data.json";
-
-function get() {
+function get(path) {
   try {
-    const database = fs.readFileSync(pathToDatabase);
+    const database = fs.readFileSync(path);
     return JSON.parse(database.toString());
   } catch (error) {
     console.error('Erro: ', error);
   }
 }
 
-function update(object) {
+function update(path, object) {
   try {
-    return fs.writeFileSync(pathToDatabase, JSON.stringify(object));
+    return fs.writeFileSync(path, JSON.stringify(object));
   } catch (error) {
     console.error('Erro: ', error);
   }

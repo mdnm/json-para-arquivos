@@ -1,13 +1,9 @@
 {
   "name": "json-para-arquivos",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A object to file helper",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mdnm/json-to-file.git"
-  },
   "author": "mdnm",
   "license": "MIT"
 }
