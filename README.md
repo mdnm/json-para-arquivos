@@ -1,1 +1,1 @@
-A object to file helper
+Um projeto que mocka o fs.
